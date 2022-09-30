@@ -1,0 +1,38 @@
+Exercice 1 
+-Faire un clone du depôt git distant 
+-Quelles sont les branches disponibles ? 
+* gh-pages
+  remotes/origin/HEAD -> origin/gh-pages
+  remotes/origin/gh-pages
+  remotes/origin/spdx-license-templates
+Exercice 2 
+-Quel est le numéro de la dernière pull request ?
+#1028
+ -Combien de commit contient la pull request #550 ?
+2
+ -Quel est le numéro, combien de commit, et quel est l’auteur dans la pull request du commit de merge 8061f2f ? 
+commit 8061f2f3d059ba3d7726dc698dabd5fa713ed2ae
+Merge: ef08b95 ce1ee04
+Merge pull request #549 from jsoref/spelling
+Author: Mike Linksvayer
+
+Exercice 3 
+-Quelle est la commande pour revenir à la version précédente sur le fichier “index.html” ? 
+Git reset index.html
+-Un plugin javascript a été supprimé dans le commit b30306e502b99aabab256a5d2f68e8d50ba5072a, quel est le nom du plugin supprimé ? 
+-    <script src="/assets/vendor/javascript-auto-complete/auto-complete.min.js"></script>
+
+-Quelle est la commande pour voir les fichiers modifiés dans ce commit ?
+git diff b30306e502b99aabab256a5d2f68e8d50ba5072a
+
+ -Quelle est la commande pour récupérer le plugin supprimé ?
+Git reflog
+Exercice 4 
+-Le dossier “_licenses” contient les licences qui sont affichées sur le site. Vous allez ajouter une license à votre nom (par exemple “theau-debureau-1.0.txt”) et commiter le résultat. 
+
+-Comment vérifier si vous êtes à jour avec le dépôt distant ? 
+Git status
+-Envoyer votre dernier commit 
+Exercice 5 
+-Sur Github créez un repository ESGI300922 
+-Push votre fichier de réponses dans une branche « main » ce repository
